@@ -4,9 +4,9 @@
     
 
 ## 🖥 Team Members:
-* **Kaloyan Ivanov** - *Front-end developer* 
-* **Kristian Dimitrov** - *Front-end developer* 
-* **Ivan-Micheal Ivanov** - *Scrumtrainer* 
+* **Kaloyan Ivanov** - *Developer* 
+* **Kristian Dimitrov** - *Developer* 
+* **Ivan-Mihail Ivanov** - *Scrum trainer* 
 * **Ivaylo Gyrov** - *Designer* 
 * **Alexander Manov** - *Mentor*
 
