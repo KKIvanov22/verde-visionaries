@@ -6,7 +6,7 @@
 ## 🖥 Team Members:
 * **Kaloyan Ivanov** - *Developer* 
 * **Kristian Dimitrov** - *Developer* 
-* **Ivan-Mihail Ivanov** - *Scrum trainer* 
+* **Ivan-Mihail Ivanov** - *Scrum-trainer* 
 * **Ivaylo Gyrov** - *Designer* 
 * **Alexander Manov** - *Mentor*
 
