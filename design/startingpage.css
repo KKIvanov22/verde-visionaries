@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("../images/mntainforest.jpg");
+    background-size:cover;
+}
+.startpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.startbut {
+    /*margin-top: 500px; This makes it feel more clean. Uncomment if you think so*/
+    width: 150px;
+    height: 42px;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+    text-shadow: 1px, 1px, black;
+    border-radius: 18px;
+}
+.sbalign{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbanchor {
+    text-decoration: none;
+}
+/*Remember, sb means starting button or startbut */
