@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="design/variety.css">
+    <link rel="stylesheet" href="../styles/infopage.css">
     <title>Verde Visionaries</title>
+
+    <script>
+        var galleryImages = ["../images/forest.jpg", "../images/color-swatch.jpg"];
+        var currentImageIndex = 0;
+
+        function showPreviousImage() {
+            currentImageIndex--;
+            if (currentImageIndex < 0) {
+                currentImageIndex = galleryImages.length - 1;
+            }
+            document.getElementById("image").src = galleryImages[currentImageIndex];
+        }
+
+        function showNextImage() {
+            currentImageIndex++;
+            if (currentImageIndex >= galleryImages.length) {
+                currentImageIndex = 0;
+            }
+            document.getElementById("image").src = galleryImages[currentImageIndex];
+        }
+    </script>
 </head>
 <body>
+    <div id="cards">
+        <img id="image" src="../images/color-swatch.jpg" height="500px" width="300px">
+    
+
+    <div id="button">
+        <button id="previous-button" onclick="showPreviousImage()">Previous</button>
+        <button id="next-button" onclick="showNextImage()">Next</button>
+    </div>
+
+
+<footer>
+    
+    <div id="footer">
+      <p >Instagram * Facebook * X * LinkedIN * TikTok</p>
+    </div>
+
+</footer>
+
+</div>
+
+<div id="contact">
+            <p>Tel: 087 685 5836 /</p>
+                <p> 089 515 623</p>
+            <p>Email: fake_email@abv.bg / </p>
+            <p>fake_company@codingburgas.bg</p>
+</div>
+
 
 </body>
 </html>
