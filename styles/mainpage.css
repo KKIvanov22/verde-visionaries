@@ -1,0 +1,64 @@
+
+header {
+    background-color: #4CAF50;
+    padding: 16px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}/*Hilfe für die Navigationsleiste
+Kommentar löschen nachdem Sie mit der Erstellung der Navigationsleiste fertig sind Ivaylo Gyurov*/
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 32px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 32px;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}/*Der Text in der Mitte*/
+h2{
+    color: #4CAF50;
+
+}
+
+p {
+    line-height: 1.6;
+}
+
+.featured-ideas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}/*Die Ideenboxen Teil 1*/
+
+.idea-card {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}/*Die Ideenboxen Teil 2*/
+
+.idea-card:hover {
+    transform: scale(1.05);
+}/*Animation für die Ideenboxen*/
