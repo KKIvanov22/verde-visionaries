@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../styles/forum.css">
+    <title>Verde Visionaries</title>
+<script src="../JavaScript/forum.js"></script>
+</head>
+<body>
+    <div id="nav">
+
+    <nav>
+        <b><a href="../html/main.html">HOME</a>
+        <a href="../html/Infopage.html">ABOUT US</a>
+        <a href="#">FORUM</a>
+        <a href="../html/Infopage.html">CONTACT</a></b>
+    </nav>
+
+</div>
+    <button onclick="showEditor()" id="showEditor"><img src="../images/plus.png" width="25px" height="25px">     ADD NEW</button>
+
+    <div id="editor">
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+
+        <label for="text">Text:</label>
+        <textarea id="text"></textarea>
+
+        <button onclick="submitArticle()" id="submit">Submit</button>
+    </div>
+
+    <div id="articles-container"></div>
+
+    <div id="overlay" class="overlay" onclick="closeEditor()"></div>
+
+</body>
+</html>
