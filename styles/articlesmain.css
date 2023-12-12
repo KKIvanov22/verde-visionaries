@@ -16,10 +16,12 @@ body {
   }
 .header {
     display: flex;
-    justify-content: end;
-    gap: 15px;
+    justify-content: space-between;
     align-items: center;
     padding: 50px 50px;
+}
+.header img {
+    width: 205px;
 }
 .navlist {
     display: flex;
@@ -46,7 +48,6 @@ body {
     width: 50px;
 }
 .intro {
-    padding-top: 40px;
     padding-bottom: 80px;
     display: flex;
     justify-content:center;
