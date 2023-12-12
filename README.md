@@ -19,4 +19,7 @@
     <img src="./readme/word.png" width="50px" height="50px">
     <img src="./readme/powerpoint.png" width="50px" height="50px">
     <img src="./readme/figma.png" width="50px" height="50px">
+    <img src="./readme/teams.png" width="50px" height="50px">
+    <img src="./readme/github.png" width="50px" height="50px">
+    <img src="./readme/vscode.png" width="50px" height="50px">
 
