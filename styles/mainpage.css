@@ -5,13 +5,12 @@ body{
 .navbar {
     overflow: hidden;
   }
-  
 .navbar a {
   float: left;
   color: rgb(0, 0, 0);
   padding: 30px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 32px;
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 800;
 }
@@ -46,9 +45,16 @@ body{
     bottom: 0;
     width: 100%;
 }
+.upleftlogo{
+position: absolute;
+width: 203px;
+height: 108px;
+left: 0px;
+top: 16px;
+}
 .frame {
   border: 10px ;
-  background-image: linear-gradient(to bottom, #dbc38b, #bfad7c, #a3976e, #898160, #716c52);
+  background-image: #cccccc;
   padding: 10px; 
   height: 20%;
   width: 30%;
@@ -66,7 +72,7 @@ body{
 .contain2 {
     display: flex;
     align-items: center;
-    background-color: #dbc38b;
+    background-color: #cccccc;
 }
 .contain2 img {
     margin-right: 10px;
@@ -89,7 +95,7 @@ body{
   color: rgb(0, 0, 0);
   padding: 30px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 24px;
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 800;
 }
@@ -106,4 +112,12 @@ body{
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 800;
   font-size: 48px;
+}
+.middlepart{
+color: #cccccc;
+position: absolute;
+width: 50%;
+height: 50%;
+left: 1061px;
+top: 467px;
 }
