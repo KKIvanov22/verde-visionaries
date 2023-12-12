@@ -1,6 +1,10 @@
 body{
     margin: 0;
-    background: linear-gradient(45deg, #DEE3D8 5%, #98C67B 95%);
+    background: linear-gradient(
+        to right,
+        rgb(163, 238, 144),
+        rgb(135, 189, 122)
+    );
   background-size: cover;
 }
 #nav {
