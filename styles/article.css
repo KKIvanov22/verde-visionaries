@@ -39,7 +39,10 @@
     .main {
         gap: 4vw; 
     }
-
+    #pic{
+        width: 45vw;
+        height: 50vh;
+    }
     .textbox {
         max-width: 1000px; 
     }
@@ -53,6 +56,10 @@
     }
 }
 @media only screen and (min-width: 1280px) and (min-height: 800px) {
+    #pic{
+        width: 45vw;
+        height: 50vh;
+    }
     .main {
         gap: 3vw;
     }
@@ -73,7 +80,10 @@
     .main {
         gap: 1.5vw; 
     }
-
+    #pic{
+        width: 45vw;
+        height: 50vh;
+    }
     .textbox {
         max-width: 90%; 
     }
