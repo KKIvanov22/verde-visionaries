@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(
+        to right,
+        rgb(163, 238, 144),
+        rgb(135, 189, 122)
+    );
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    color: #000000;
+    text-decoration: none;
+  }
+.header {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    align-items: center;
+    padding: 50px 50px;
+}
+.navlist {
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+.navlist li {
+    padding: 0 30px;
+}
+.navlist li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+.navlist li a:hover {
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+}
+.settings{
+    padding: 0;
+    border: none;
+    background: none;
+}
+.settings img {
+    width: 50px;
+}
+.intro {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.infobox {
+    padding-top: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.intro h1 {
+    font-size: 50px;
+}
+.intro img {
+    width: 150px;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 65px;
+}
+.articles div {
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 0.7s;
+}
+.articles img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    position: relative;
+}
+.articles div:hover {
+    transform: scale(1.2);
+}
+.button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 25px;
+    background-color: rgb(0, 105, 0);
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .articles div:hover .button {
+    opacity: 1;
+  }

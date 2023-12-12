@@ -12,6 +12,7 @@ body{
     
     justify-content: end;
     align-items: center;
+<<<<<<< HEAD
 
     font-family: 'Saira Condensed', sans-serif;
     font-size: 0.9vw;
@@ -20,6 +21,13 @@ body{
     width: 2vw;
     height: 3vh;
 }
+=======
+
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+>>>>>>> 4d9098bf3139c74471cd345f94e1a0992c98b60b
 #nav a {
     color: black;
     text-decoration: none; 
@@ -42,25 +50,33 @@ body{
     overflow-y: auto; 
     z-index: 1;
     font-family: 'Saira Condensed', sans-serif;
+<<<<<<< HEAD
     font-size: 0.9vw;
+=======
+
+>>>>>>> 4d9098bf3139c74471cd345f94e1a0992c98b60b
 }
 
 #title {
     width: 99%;
     font-size: 2em;
     margin-bottom: 10px;
-    border-radius: 25px; 
+    border-radius: 5px; 
     background-color: #D9D9D9;
     border: none;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 
 #text {
     width: 99%;
     height: 300px;
     font-size: 1.2em;
-    border-radius: 25px; 
+    border-radius: 5px; 
     background-color: #D9D9D9;
     border: none;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 #submit{
    margin-left: 18vw;
@@ -70,13 +86,20 @@ body{
     border: none;
     border-radius: 10px; 
     background-color: #D9D9D9;;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 .article {
     cursor: pointer;
     margin-bottom: 10px;
+<<<<<<< HEAD
     height: 5vh;
     width: 5vw;
     font-size: 1vw
+=======
+    font-family: 'Saira Condensed', sans-serif;
+
+>>>>>>> 4d9098bf3139c74471cd345f94e1a0992c98b60b
 }
 
 .article-content {
@@ -85,8 +108,13 @@ body{
     padding: 10px;
     margin-top: 10px;
     background-color:#a8a8a8 ;
+<<<<<<< HEAD
     height: 8vh;
     width: 99vw;
+=======
+    font-family: 'Saira Condensed', sans-serif;
+
+>>>>>>> 4d9098bf3139c74471cd345f94e1a0992c98b60b
 }
 
 .overlay {
@@ -109,6 +137,7 @@ body{
     border-radius: 25px; 
     background-color: #F4F3F3;
     display: flex;
+<<<<<<< HEAD
     gap: 12px;
     justify-content: center;
     align-items: center;
@@ -248,4 +277,9 @@ body{
         width: 2vw;
         height: 2vh;
     }
+=======
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 4d9098bf3139c74471cd345f94e1a0992c98b60b
 }

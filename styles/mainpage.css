@@ -14,7 +14,6 @@ body{
   font-size: 14px;
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 800;
-    
 }
   
   .navbar a.active {
@@ -25,8 +24,8 @@ body{
   .nav-right {
     float: right;
     position: absolute;
-  top: 8px;
-  right: 16px;
+    top: 8px;
+    right: 16px;
   }
   h1{
     font-family: 'Saira Condensed', sans-serif;
@@ -37,29 +36,26 @@ body{
   p{
     font-family: 'Saira Condensed', sans-serif;
     font-weight: 800;
-    margin-left: 24px;
+    margin-left: 32px;
   }
   footer {
     background-color: black;
     color: white;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
 .frame {
   border: 10px ;
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%);
+  background-image: linear-gradient(to bottom, #dbc38b, #bfad7c, #a3976e, #898160, #716c52);
   padding: 10px; 
-  display: inline-block;
   height: 20%;
-  width: 20%;
+  width: 30%;
   margin: 48px;
 }
 
 .frame img {
-  display: block;  
   object-fit: contain;
 }
 .container {
@@ -67,16 +63,47 @@ body{
   text-align: center;
   color: white;
 }
-.img{
-    height: 20%;
-    width: 50%;
-}
 .contain2 {
     display: flex;
     align-items: center;
+    background-color: #dbc38b;
 }
 .contain2 img {
     margin-right: 10px;
     height: 20%;
-    width: 20%;
+    width: 30%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.top-right a{
+  float: left;
+  color: rgb(0, 0, 0);
+  padding: 30px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.bottom-right a{
+  color: rgb(0, 0, 0);
+  padding: 30px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
 }
