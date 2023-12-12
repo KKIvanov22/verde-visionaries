@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
 }
@@ -120,4 +119,184 @@ width: 50%;
 height: 50%;
 left: 1061px;
 top: 467px;
+}
+#foot{
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+  .navbar a {
+      padding: 2.5vw 1.5vw;
+      font-size: 2.5vw;
+  }
+
+  .navbar a.active {
+      padding: 2.5vw 1.5vw;
+  }
+
+  .nav-right {
+      top: 1vw;
+      right: 2vw;
+  }
+
+  h1 {
+      font-size: 3vw;
+      text-align: right;
+  }
+
+  p {
+      margin-left: 2vw;
+  }
+
+  footer {
+      padding: 1vw;
+  }
+
+  .upleftlogo {
+      width: 10vw;
+      height: 5.3vw;
+  }
+
+  .frame {
+      margin: 3.2vw;
+  }
+
+  .contain2 img {
+      height: 5.4vh;
+      width: 9vw;
+      margin-right: 0.5vw;
+  }
+
+  .top-right a {
+      font-size: 2.4vw;
+  }
+
+  .bottom-right a {
+      font-size: 1.4vw;
+  }
+
+  .middlepart {
+      width: 6vw;
+      height: 6vw;
+      left: 5.8vw;
+      top: 27vw;
+  }
+}
+
+@media only screen and (min-width: 420px) and (min-height: 900px) {
+  .navbar a {
+      padding: 3.6vw 2vw;
+      font-size: 4vw;
+  }
+
+  .navbar a.active {
+      padding: 3.6vw 2vw;
+  }
+
+  .nav-right {
+      top: 1.6vw;
+      right: 3.2vw;
+  }
+
+  h1 {
+      font-size: 4.8vw;
+      text-align: right;
+  }
+
+  p {
+      margin-left: 1.6vw;
+  }
+
+  footer {
+      padding: 1vw;
+  }
+
+  .upleftlogo {
+      width: 11.1vw;
+      height: 5.9vw;
+  }
+
+  .frame {
+      margin: 3.2vw;
+  }
+
+  .contain2 img {
+      height: 2.7vh;
+      width: 4.5vw;
+      margin-right: 0.5vw;
+  }
+
+  .top-right a {
+      font-size: 2vw;
+  }
+
+  .bottom-right a {
+      font-size: 1.2vw;
+  }
+
+  .middlepart {
+      width: 8vw;
+      height: 8vw;
+      left: 2vw;
+      top: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+  .navbar a {
+      padding: 1.9vw 1.1vw;
+      font-size: 2.5vw;
+  }
+
+  .navbar a.active {
+      padding: 1.9vw 1.1vw;
+  }
+
+  .nav-right {
+      top: 1.1vw;
+      right: 2.3vw;
+  }
+
+  h1 {
+      font-size: 3.1vw;
+      text-align: right;
+  }
+
+  p {
+      margin-left: 2.3vw;
+  }
+
+  footer {
+      padding: 1.1vw;
+  }
+
+  .upleftlogo {
+      width: 9.3vw;
+      height: 5vw;
+  }
+
+  .frame {
+      margin: 2.3vw;
+  }
+
+  .contain2 img {
+      height: 3.6vh;
+      width: 6vw;
+      margin-right: 1vw;
+  }
+
+  .top-right a {
+      font-size: 1.8vw;
+  }
+
+  .bottom-right a {
+      font-size: 1.vw;
+  }
+
+  .middlepart {
+      width: 5.5vw;
+      height: 5.5vw;
+      left: 1.5vw;
+      top: 8.7vw;
+  }
 }
