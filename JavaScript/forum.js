@@ -1,7 +1,7 @@
 function showEditor() {
             document.getElementById('editor').style.display = 'block';
             document.getElementById('overlay').style.display = 'block';
-            resetEditor(); // Reset editor values when opening for a new article
+            resetEditor(); 
         }
 
         function submitArticle() {

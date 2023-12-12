@@ -10,7 +10,10 @@ body{
     
     justify-content: end;
     align-items: center;
+
+    font-family: 'Saira Condensed', sans-serif;
 }
+
 
 #nav a {
     color: black;
@@ -33,24 +36,30 @@ body{
     max-height: 80%; 
     overflow-y: auto; 
     z-index: 1;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 
 #title {
     width: 99%;
     font-size: 2em;
     margin-bottom: 10px;
-    border-radius: 25px; 
+    border-radius: 5px; 
     background-color: #D9D9D9;
     border: none;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 
 #text {
     width: 99%;
     height: 300px;
     font-size: 1.2em;
-    border-radius: 25px; 
+    border-radius: 5px; 
     background-color: #D9D9D9;
     border: none;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 #submit{
    margin-left: 18vw;
@@ -60,11 +69,14 @@ body{
     border: none;
     border-radius: 10px; 
     background-color: #D9D9D9;;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 .article {
     cursor: pointer;
     margin-bottom: 10px;
-   
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 
 .article-content {
@@ -73,6 +85,8 @@ body{
     padding: 10px;
     margin-top: 10px;
     background-color:#a8a8a8 ;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
 
 .overlay {
@@ -93,4 +107,8 @@ body{
     border: none;
     border-radius: 25px; 
     background-color: #F4F3F3;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
