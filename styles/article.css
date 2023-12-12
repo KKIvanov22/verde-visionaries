@@ -1,33 +1,92 @@
 .imagecon {
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
 }
-.imagecon img{
-    width: 900px;
-    height: 600px;
-    object-fit: cover;
+
+.imagecon img {
+    width: 100%;
+    height: auto;
     border-radius: 7px;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
 }
+
 .main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row; 
+    justify-content: center;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px;
+    gap: 2vw;
+    margin-top: 5vh;
 }
+
 .textbox {
-    padding: 15px 15px;
-    width: 700px;
-    height: 500px;
+    padding: 15px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     background-color: rgb(0, 177, 0);
     border-radius: 5px;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
     font-family: 'Saira Condensed', sans-serif;
 }
+
 .textbox h1 {
-    font-size: 50px;
+    font-size: 3.125vw;
 }
+
 .textbox p {
     padding-top: 20px;
     padding-left: 15px;
-    font-size: 25px;
+    font-size: 1.25vw;
+}
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .main {
+        gap: 4vw; 
+    }
+
+    .textbox {
+        max-width: 1000px; 
+    }
+
+    .textbox h1 {
+        font-size: 4vw; 
+    }
+
+    .textbox p {
+        font-size: 1.5vw; 
+    }
+}
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+    .main {
+        gap: 3vw;
+    }
+
+    .textbox {
+        max-width: 800px; 
+    }
+
+    .textbox h1 {
+        font-size: 2.5vw; 
+    }
+
+    .textbox p {
+        font-size: 1.1vw; 
+    }
+}
+@media only screen and (min-width: 420px) and (min-height: 900px) {
+    .main {
+        gap: 1.5vw; 
+    }
+
+    .textbox {
+        max-width: 90%; 
+    }
+
+    .textbox h1 {
+        font-size: 2.5vw; 
+    }
+
+    .textbox p {
+        font-size: 1.1vw; 
+    }
 }

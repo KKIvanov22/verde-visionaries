@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 1000;
+    color: #000000;
+    text-decoration: none;
+}
+
+
 body{
     margin: 0;
     background: linear-gradient(
@@ -9,29 +20,30 @@ body{
   
   
 }
-#nav {
+.header {
     display: flex;
-    height: 10vh;
-    width: 99vw;
-    
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
-
-
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 0.9vw;
+    padding: 50px 50px;
 }
-#plus{
-    width: 2vw;
-    height: 3vh;
-
-    font-family: 'Saira Condensed', sans-serif;
+.header img {
+    width: 205px;
 }
-
-#nav a {
-    color: black;
-    text-decoration: none; 
-    padding: 0 5px; 
+.navlist {
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+.navlist li {
+    padding: 0 30px;
+}
+.navlist li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+.navlist li a:hover {
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
 }
 #editor {
     display: none;

@@ -4,7 +4,9 @@ body {
         rgb(163, 238, 144),
         rgb(135, 189, 122)
     );
+    
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -109,3 +111,197 @@ body {
   .articles div:hover .button {
     opacity: 1;
   }
+  @media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    body {
+        background: linear-gradient(
+            to right,
+            rgb(163, 238, 144),
+            rgb(135, 189, 122)
+        );
+    }
+
+    .header {
+        padding: 2vw 2vh;
+    }
+
+    .header img {
+        width: 5vw;
+    }
+
+    .navlist {
+        font-size: 1.5vw;
+    }
+
+    .navlist li {
+        padding: 0 1.5vw;
+    }
+
+    .settings img {
+        width: 1.5vw;
+    }
+
+    .intro {
+        padding-bottom: 4vh;
+    }
+
+    .infobox {
+        padding-top: 5vh;
+        font-size: 2vw;
+    }
+
+    .intro h1 {
+        font-size: 3vw;
+    }
+
+    .intro img {
+        width: 3.5vw;
+    }
+
+    .articles {
+        padding: 4vh 4vw;
+    }
+
+    .articles div {
+        height: 20vh;
+        width: 30vw;
+        margin-bottom: 3vh;
+    }
+
+    .articles img {
+        border-radius: 0.8vw;
+    }
+
+    .button {
+        padding: 1vh 2vw;
+    }
+}
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+    body {
+        background: linear-gradient(
+            to right,
+            rgb(163, 238, 144),
+            rgb(135, 189, 122)
+        );
+    }
+
+    .header {
+        padding: 3vw 3vh;
+    }
+
+    .header img {
+        width: 7vw;
+    }
+
+    .navlist {
+        font-size: 1.8vw;
+    }
+
+    .navlist li {
+        padding: 0 2vw;
+    }
+
+    .settings img {
+        width: 2vw;
+    }
+
+    .intro {
+        padding-bottom: 6vh;
+    }
+
+    .infobox {
+        padding-top: 8vh;
+        font-size: 2.5vw;
+    }
+
+    .intro h1 {
+        font-size: 4vw;
+    }
+
+    .intro img {
+        width: 5vw;
+    }
+
+    .articles {
+        padding: 5vh 5vw;
+    }
+
+    .articles div {
+        height: 25vh;
+        width: 40vw;
+        margin-bottom: 3vh;
+    }
+
+    .articles img {
+        border-radius: 1vw;
+    }
+
+    .button {
+        padding: 1.5vh 3vw;
+    }
+}
+@media only screen and (min-width: 420px) and (min-height: 900px) {
+    body {
+        background: linear-gradient(
+            to right,
+            rgb(163, 238, 144),
+            rgb(135, 189, 122)
+        );
+    }
+
+    .header {
+        padding: 2vw 2vh;
+    }
+
+    .header img {
+        width: 8vw;
+    }
+
+    .navlist {
+        font-size: 1vw;
+    }
+
+    .navlist li {
+        padding: 0 1.5vw;
+    }
+
+    .settings img {
+        width: 2.5vw;
+    }
+
+    .intro {
+        padding-bottom: 4vh;
+    }
+
+    .infobox {
+        padding-top: 5vh;
+        font-size: 2.5vw;
+    }
+
+    .intro h1 {
+        font-size: 2vw;
+    }
+
+    .intro img {
+        width: 8vw;
+    }
+
+    .articles {
+        padding: 4vh 4vw;
+        gap: 2vw;
+    }
+
+    .articles div {
+        height: 50vh;
+        width: 80vw;
+        margin-bottom: 3vh;
+    }
+
+    .articles img {
+        border-radius: 1vw;
+        height: 50vh;
+    }
+
+    .button {
+        padding: 1.5vh 3vw;
+    }
+}
